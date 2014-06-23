@@ -1,4 +1,6 @@
 run_analysis <- function() {
+	library(data.table)
+	library(reshape2)
 	# set main data source path
 	src <- "./UCI HAR Dataset/"
 
